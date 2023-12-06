@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "argos": "argos"
   },
   "dependencies": {
     "next": "14.0.3",
@@ -14,6 +15,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@argos-ci/cli": "^1.0.4",
     "@argos-ci/playwright": "^1.3.2",
     "@playwright/test": "^1.40.1",
     "@types/node": "^20",
